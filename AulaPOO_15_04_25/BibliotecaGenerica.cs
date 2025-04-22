@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AulaPOO_15_04_25
 {
-    public class BibliotecaGenerica<T> // Classe genérica <T>
+    public class BibliotecaGenerica<T> where T : ItensBiblioteca// Classe genérica <T>
     {
         private List<T> itens = new List<T>(); // Lista genérica <T>
 

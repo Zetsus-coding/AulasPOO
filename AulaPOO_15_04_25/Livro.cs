@@ -1,9 +1,10 @@
 ﻿using System;
 
-public class Livro
+namespace AulaPOO_15_04_25
 {
-	public int id {  get; set; }
-	public string? Titulo { get; set; }
-	public string? Autor { get; set; }
-	public string AnoPublicacao { get; set; }
+    public class Livro : ItensBiblioteca
+	{
+		public string? Autor { get; set; }
+		public string AnoPublicacao { get; set; }
+	}
 }
