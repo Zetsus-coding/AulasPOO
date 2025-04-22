@@ -2,9 +2,9 @@
 
 namespace AulaPOO_15_04_25
 {
-    public class MidiaDigital : ItensBiblioteca
+    public class Revista : ItensBiblioteca
 	{
 		public string? Tipo { get; set; }
-		public string Extensao { get; set; }
+		public string Codigo { get; set; }
 	}
 }
